@@ -1,0 +1,5 @@
+testHID.pro.user*
+testHID_resource.rc
+Makefile*
+ui_*.h
+object_script*
