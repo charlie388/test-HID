@@ -25,9 +25,9 @@ FORMS    += mainwindow.ui
 # Add the Signal11's hidapi library that was
 # created
 #-------------------------------------------------
-macx: LIBS += -L../HIDAPI/mac -lHIDAPI
-win32: LIBS += -L../HIDAPI/windows -lHIDAPI
-unix: !macx: LIBS += -L../HIDAPI/linux -lHIDAPI
+macx: LIBS += -L../hidapi/mac -lhidapi
+win32: LIBS += -L../hidapi/windows/.libs -lhidapi
+unix: !macx: LIBS += -L../hidapi/linux -lhidapi
 
 #-------------------------------------------------
 # Make sure to add the required libraries or
