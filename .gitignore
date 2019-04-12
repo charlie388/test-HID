@@ -1,3 +1,4 @@
+.qmake.stash
 testHID.pro.user*
 testHID_resource.rc
 Makefile*
